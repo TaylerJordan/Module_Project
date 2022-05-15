@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wraper">
+      <!-- MODAL -->
+      <div class="open-modal-btn">открыть окно</div>
+      <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Название</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+              <p>Содержимое модального окна...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CLOCK -->
+      <div class="clock">
+        <div id="year">00</div>
+        <div class="space">:</div>
+        <div id="month">00</div>
+        <div class="space">:</div>
+        <div id="days">00</div>
+        <div class="space">:</div>
+        <div id="hours">00</div>
+        <div class="space">:</div>
+        <div id="minutes">00</div>
+        <div class="space">:</div>
+        <div id="seconds">00</div>
+      </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
